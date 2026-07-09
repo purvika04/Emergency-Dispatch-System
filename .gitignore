@@ -1,6 +1,4 @@
 .DS_Store
 __pycache__/
 *.pyc
-emergency_system
-emergency_system.exe
 system_state.bin
