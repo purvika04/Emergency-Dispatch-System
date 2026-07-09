@@ -1,0 +1,93 @@
+/* Core Layout */
+body { 
+    background-color: #1a1d21; 
+    color: #ffffff; 
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.navbar { 
+    background-color: #121417; 
+    border-bottom: 2px solid #2d3238; 
+    padding: 15px 0;
+}
+
+/* Form Styling */
+.emergency-form { 
+    background-color: #ffffff; 
+    color: #212529; 
+    padding: 25px; 
+    border-radius: 12px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.form-label { font-weight: 600; }
+
+/* Unit Status Cards */
+.card { 
+    background-color: #2b3035; 
+    border: 1px solid #3e444a; 
+    border-radius: 10px; 
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.status-card { 
+    min-height: 160px; 
+    border-left: 6px solid #28a745; /* Green for Available */
+}
+
+/* Red border when unit is BUSY */
+.status-busy { 
+    border-left-color: #dc3545 !important; 
+    background-color: #322628;
+}
+
+.unit-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #495057;
+    padding-bottom: 5px;
+}
+
+/* Action Buttons */
+.btn-dispatch { 
+    background-color: #121417; 
+    border: 1px solid #495057; 
+    color: white; 
+    font-weight: 600;
+}
+
+.btn-dispatch:hover { 
+    background-color: #2d3238; 
+    border-color: #0d6efd;
+}
+
+.dark-title {
+    color: #000000 !important;
+}
+/* Unit markers on map */
+
+.unit-label-free {
+    background:#000;
+    color:#00ff88;
+    border:2px solid #00ff88;
+    border-radius:6px;
+    padding:4px 6px;
+    font-size:12px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.unit-label-busy {
+    background:#000;
+    color:#ff4d4d;
+    border:2px solid #ff4d4d;
+    border-radius:6px;
+    padding:4px 6px;
+    font-size:12px;
+    font-weight:bold;
+    text-align:center;
+}
